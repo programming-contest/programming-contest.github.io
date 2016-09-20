@@ -1,9 +1,12 @@
-_site/
-.DS_Store
-/.rbenv-version
-/vendor/gems/
-/bin/
+# Jekyll
+/_site/
 /.bundle/
-.sass-cache/
+
+# Sass
+/.sass-cache/
+
+# Gedit
 *.*~
-_release
+
+# JetBrains
+/.idea/

@@ -1,0 +1,187 @@
+body {
+    height: 10000px;
+    margin: 0;
+    padding: 0;
+}
+
+.en:lang(en), .fr:lang(fr) {
+    font-weight: bold;
+    border-bottom: 2px solid;
+    color: #31a933;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 32px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header div {
+    padding: 5px;
+    background-color: #76cd96;
+}
+
+header div ul {
+    margin: 0;
+    padding: 0;
+}
+
+header div ul.line li {
+    display: inline;
+}
+
+header div ul li {
+    border-radius: 60%;
+    list-style: none;
+}
+
+
+header i, header .fa, header img {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+header i.small {
+    font-size: 24px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #31a933;
+    text-decoration: none;
+}
+
+header a:visited {
+    text-decoration: none;
+}
+
+header a:focus {
+    color: white;
+    text-decoration: none;
+}
+
+header a:active {
+    text-decoration: none;
+}
+
+header input {
+    float:right;
+    clear:both;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header input[type=text] {
+    width: 40%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+header input[type=text]:focus {
+    width: 100%;
+}
+
+header input::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: white;
+}
+
+header input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: white;
+    opacity: 1;
+}
+
+header input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: white;
+    opacity: 1;
+}
+
+header input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+header .logo {
+    font-size: 14px;
+    text-align: left;
+}
+
+header .menu {
+    text-align: center;
+}
+
+header .social-network {
+    text-align: center;
+}
+
+header .search {
+    text-align: right;
+}
+
+header .settings-icon  {
+    text-align: right;
+}
+
+header .settings  {
+    position: fixed;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 0 !important;
+}
+
+header .settings hr {
+    color:white;
+    background-color:white;
+    margin: 0;
+    height: 1px;
+}
+
+header .settings li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+header .lang {
+    text-align: right;
+}
+
+header .breadcrumb {
+
+}
+
+/* Content page */
+
+.content-page {
+    height: 900px;
+    margin-top: 50px;
+    color: darkgrey;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}

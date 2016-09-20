@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "fa-github",
+    "name": "Github",
+    "link": ""
+  },
+  {
+    "icon": "fa-facebook",
+    "name": "Facebook",
+    "link": ""
+  },
+  {
+    "icon": "fa-twitter",
+    "name": "Twitter",
+    "link": ""
+  },
+  {
+    "icon": "fa-list-alt",
+    "name": "Meetup",
+    "link": ""
+  }
+]

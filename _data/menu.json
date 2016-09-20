@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "fa-home",
+    "title": {"en": "Home", "fr": "Accueil"},
+    "link": {"en": "/", "fr": "/accueil/"}
+  },
+  {
+    "icon": "fa-calendar-o",
+    "title": {"en": "Events", "fr": "Évènements"},
+    "link": {"en": "/events/", "fr": "/evenements/"}
+  },
+  {
+    "icon": "fa-user",
+    "title": {"en": "Contributors", "fr": "Contributeurs"},
+    "link": {"en": "/contributors/", "fr": "/contributeurs/"}
+  },
+  {
+    "icon": "fa-play",
+    "title": {"en": "Live", "fr": "En direct"},
+    "link": {"en": "/live/", "fr": "/en-direct/"}
+  }
+]
