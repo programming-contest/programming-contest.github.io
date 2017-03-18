@@ -1,6 +1,6 @@
 <header>
     <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-10 logo">
+        <div class="col-lg-3 col-md-4 col-sm-10 col-xs-10 logo">
             <a href="{% if page.lang == 'en' %}/home/{% else %}/{% endif %}">
                 <table cellspacing="0">
                     <tbody style="font-size: 1.5em">
@@ -29,9 +29,9 @@
         <div class="col-lg-3 visible-lg lang">
             {% include lang.html %}
         </div>
-        <div class="col-md-2 col-sm-2 hidden-lg settings-icon settings-js">
+        <div class="col-md-2 col-sm-2 col-xs-2 hidden-lg settings-icon settings-js">
             <a href="javascript:">
-                <i class="fa fa-bars"></i>&nbsp;&nbsp;
+                <i class="fa fa-bars"></i>
             </a>
         </div>
     </div>

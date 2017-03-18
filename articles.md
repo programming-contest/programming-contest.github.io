@@ -13,19 +13,26 @@ location: posts
         <div class="col-xs-12 slogan">
             Lisez, partagez, commentez des articles ...
         </div>
+        <div class="col-xs-6">
+            <a class="btn btn-white" href="/creer-article/">Créer un article</a>
+        </div>
+        <div class="col-xs-6">
+            <a class="btn btn-green" href="https://goo.gl/forms/4Hs3YYuanEdzzsSv2">Soumettre un article</a>
+        </div>
     </div>
 </div>
 
 <div class="list-posts">
-    <ul class="no-style">
+    <ul class="no-style" style="text-align:center">
       {% assign posts = site.posts | sort: 'date' | reverse %}
       {% for post in posts %}
-        <li>
-          {{ post.date | date: '%Y-%m-%d' }} - 
-          <a href="{{ post.url }}">{{ post.title | capitalize }}</a>
-          by {{ post.author }}.
+        <li> 
+          <h1><a href="{{ post.url }}">{{ post.title | capitalize }}</a></h1>
+            <span style="color:grey">{{ post.date | date: '%Y/%m/%d' }}</span> <br>
+            <h4>{{ post.description }}</h4>
+           <i>{{ post.author }}</i><br><br>
           {% for keyword in post.keywords %}
-            {{ keyword }};
+            <button>{{ keyword }}</button>
           {% endfor %}
         </li>
         <hr>

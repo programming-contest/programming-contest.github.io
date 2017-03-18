@@ -272,3 +272,9 @@ footer ul.line li {
     border-left: 1px grey solid;
     border-right: 1px grey solid;
 }
+
+/* Generality */
+
+ul.no-style {
+    list-style-type: none;
+}

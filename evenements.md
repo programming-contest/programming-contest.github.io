@@ -18,8 +18,11 @@ permalink: /evenements/
 
 Pour voir nos évènements, rejoignez notre groupe meetup:
 
+{% include img.html
+url="https://docs.google.com/drawings/d/1ZuJ-2iZkZvmP4UTyawWQ2aOCa4Rqdpy09TJMmu18xew/pub?w=941&amp;h=253"
+width="100%"
+description="" %}
+    
 <div style="text-align: center">
-    <a href="https://www.meetup.com/programming-contest-paris">
-        <img src="/static/img/meetup.png" style="height:25"/> <b style="font-size:3em">eetup</b>
-     </a>
+    <a class="btn btn-green" href="https://www.meetup.com/programming-contest-paris/join/">Rejoingnez-nous</a>
 </div>
