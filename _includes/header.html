@@ -1,12 +1,12 @@
 <header>
     <div class="row">
         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 logo">
-            <a href="/">
+            <a href="{% if page.lang == 'en' %}/{% else %}/accueil/{% endif %}">
                 <table cellspacing="0">
-                    <tbody>
+                    <tbody style="font-size: 1.5em">
                     <tr height="32">
                         <td>&nbsp;&nbsp;<img src="/static/img/logo.png"></td>
-                        <td class="small"> &nbsp; Programming <br> &nbsp; Contest</td>
+                        <td class="small"><b> &nbsp; Programming Contest</b></td>
                     </tr>
                     </tbody>
                 </table>
@@ -15,27 +15,24 @@
         <div class="col-lg-2 col-md-2 visible-lg visible-md social-network">
             <ul class="line social-network">
                 {% for link in site.data.social %}
-                <li><a href="{{ link.link }}" title="{{ link.name }}"><i class="fa {{ link.icon }}"></i></a></li>
+                    <li><a href="{{ link.link }}" title="{{ link.name }}"><i class="fa {{ link.icon }}"></i></a></li>
                 {% endfor %}
             </ul>
         </div>
         <div class="col-lg-4 visible-lg menu">
             <ul class="line">
                 {% for tab in site.data.menu %}
-                {% if forloop.index != 1 %}
-                |
-                {% endif %}
-                <li><a href="{{ tab.link.[page.lang] }}">{{ tab.title.[page.lang] }}</a></li>
+                    <li><a href="{{ tab.link.[page.lang] }}"><span class="{{ tab.icon }}"></span> {{ tab.title.[page.lang] }}</a>&nbsp;&nbsp;</li>
                 {% endfor %}
             </ul>
         </div>
         <div class="col-lg-2 col-md-5 col-sm-6 col-xs-5 search">
-            <input name="search" type="text" placeholder="{% if page.lang == 'en' %}Search...{% else %}Trouver...{% endif %}">
+            <!-- input name="search" type="text" placeholder="{% if page.lang == 'en' %}Search...{% else %}Trouver...{% endif %}"-->
         </div>
         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 search-js">
-            <a href="javascript:">
+            <!--a href="javascript:">
                 <i class="fa fa-search small"></i>
-            </a>
+            </a-->
         </div>
         <div class="col-lg-1 visible-lg lang">
             {% include lang.html %}

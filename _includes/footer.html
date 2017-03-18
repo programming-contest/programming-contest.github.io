@@ -1,3 +1,14 @@
 <footer>
-    Footer
+    <div>
+        <div>
+            Programming Contest :
+            {% for link in site.data.social %}
+                <a href="{{ link.link }}" title="{{ link.name }}"><i class="fa {{ link.icon }}"></i></a>
+            {% endfor %}
+        </div>
+        <div>
+            Powered by <a href="https://jekyllrb.com/">Jekyll</a> - Copyright © All right reserved {{ site.time | date:
+            '%Y' }}
+        </div>
+    </div>
 </footer>

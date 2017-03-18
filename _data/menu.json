@@ -5,14 +5,14 @@
     "link": {"en": "/", "fr": "/accueil/"}
   },
   {
-    "icon": "fa-calendar-o",
-    "title": {"en": "Events", "fr": "Évènements"},
-    "link": {"en": "/events/", "fr": "/evenements/"}
+    "icon": "fa-book",
+    "title": {"en": "Articles", "fr": "Articles"},
+    "link": {"en": "/posts/", "fr": "/articles/"}
   },
   {
-    "icon": "fa-user",
-    "title": {"en": "Contributors", "fr": "Contributeurs"},
-    "link": {"en": "/contributors/", "fr": "/contributeurs/"}
+    "icon": "fa-calendar",
+    "title": {"en": "Events", "fr": "Évènements"},
+    "link": {"en": "/events/", "fr": "/evenements/"}
   },
   {
     "icon": "fa-play",

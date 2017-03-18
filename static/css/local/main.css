@@ -1,13 +1,15 @@
 body {
-    height: 10000px;
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    background-color: #f5f5f5;
 }
 
 .en:lang(en), .fr:lang(fr) {
     font-weight: bold;
     border-bottom: 2px solid;
-    color: #31a933;
+    color: #979faf;
 }
 
 /* Header */
@@ -21,11 +23,12 @@ header {
     color: white;
     font-weight: bold;
     font-size: 16px;
+    z-index: 9999;
 }
 
 header div {
     padding: 5px;
-    background-color: #76cd96;
+    background-color: #626b7f;
 }
 
 header div ul {
@@ -62,7 +65,7 @@ header a {
 }
 
 header a:hover {
-    color: #31a933;
+    color: #979faf;
     text-decoration: none;
 }
 
@@ -176,12 +179,96 @@ header .breadcrumb {
 
 }
 
+/* Footer */
+
+footer {
+    padding-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: #626b7f;
+    text-align: center;
+    height: 74px;
+    z-index: 9999;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #979faf;
+    text-decoration: none;
+}
+
+footer ul.line li {
+    display: inline;
+}
+
+/* Button */
+
+.btn-green, .btn-green:hover {
+    color: white;
+    border-color: #088837;
+    border-bottom-color: #007827;
+    background-color: #29b35b;
+    background-image: linear-gradient(to bottom, #2ec866, #29b35b);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2), inset 0 1px 1px rgba(255,255,255,0.1), inset 0 -1px 4px rgba(32,138,70,0.3);
+}
+
+.btn-white, .btn-white:hover {
+    background: white;
+    border-color: #2ec866;
+    color: #2ec866;
+}
+
+.header-page-image-home {
+    background-image: url('/static/img/header-page/home.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height:400px;
+    margin-bottom: 20px;
+    border: 1px solid lightgrey;
+}
+
+.header-page-image-posts {
+    background-image: url('/static/img/header-page/posts.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height:400px;
+    margin-bottom: 20px;
+    border: 1px solid lightgrey;
+}
+
+.header-page-image-events {
+    background-image: url('/static/img/header-page/events.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height:400px;
+    margin-bottom: 20px;
+    border: 1px solid lightgrey;
+}
+
+.slogan {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: bold;
+    font-size: 2em;
+    padding-bottom: 90px;
+}
+
+
 /* Content page */
 
 .content-page {
-    height: 900px;
+    min-height: 1000px;
     margin-top: 50px;
-    color: darkgrey;
-    border-left: 1px solid lightgrey;
-    border-right: 1px solid lightgrey;
+    padding-bottom: 50px;
+    background-color: white;
+    color: black;
+    border-left: 1px grey solid;
+    border-right: 1px grey solid;
 }

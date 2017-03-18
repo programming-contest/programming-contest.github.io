@@ -2,7 +2,7 @@
   {
     "icon": "fa-github",
     "name": "Github",
-    "link": ""
+    "link": "https://github.com/programming-contest"
   },
   {
     "icon": "fa-facebook",
@@ -17,6 +17,6 @@
   {
     "icon": "fa-list-alt",
     "name": "Meetup",
-    "link": ""
+    "link": "https://www.meetup.com/programming-contest-paris/"
   }
 ]
