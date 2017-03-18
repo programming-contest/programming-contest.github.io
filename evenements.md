@@ -4,6 +4,7 @@ title: "Évènements"
 subtitle: "Des évènements pour tous."
 ref: events
 lang: fr
+permalink: /evenements/
 ---
 
 <div class="header-page-image-events">
