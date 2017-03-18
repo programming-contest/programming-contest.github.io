@@ -2,7 +2,7 @@
   {
     "icon": "fa-home",
     "title": {"en": "Home", "fr": "Accueil"},
-    "link": {"en": "/", "fr": "/accueil/"}
+    "link": {"en": "/home/", "fr": "/"}
   },
   {
     "icon": "fa-book",
