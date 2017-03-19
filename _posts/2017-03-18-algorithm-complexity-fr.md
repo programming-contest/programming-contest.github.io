@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: post-fr
 title:  "La complexité d'un algorithme"
-description: "La performance d'un algorithme dépend directement de sa complexité d'éxécution et spatiale"
+subtitle: "La performance d'un algorithme dépend directement de sa complexité d'éxécution et spatiale."
 keywords: ["algorithme", "complexité"]
-ref: algorithm-resource
+ref: algorithm-complexity
 lang: fr
 author: glegoux
 ---
 
-Example 1
+Bientôt disponible ...
 

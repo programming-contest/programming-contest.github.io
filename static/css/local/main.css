@@ -260,6 +260,42 @@ footer ul.line li {
     padding-bottom: 90px;
 }
 
+/* Languages */
+
+div.language-bash::before  {
+    color: #b9bbbc;
+    content: url("/static/img/bash.png") " Bash";
+}
+
+div.language-java::before  {
+    color: #b9bbbc;
+    content: url("/static/img/java.png") " Java";
+}
+
+div.language-python::before {
+    color: #b9bbbc;
+    content: url("/static/img/python.png") " Python";
+}
+
+div.language-sql::before {
+    color: #b9bbbc;
+    content: url("/static/img/sql.png") " SQL";
+}
+
+div.language-json::before {
+    color: #b9bbbc;
+    content: url("/static/img/json.png") " JSON";
+}
+
+div.language-scala::before {
+    color: #b9bbbc;
+    content: url("/static/img/scala.png") " Scala";
+}
+
+div.language-javascript::before {
+    color: #b9bbbc;
+    content: url("/static/img/javascript.png") " Javascript";
+}
 
 /* Content page */
 

@@ -1,2 +1,5 @@
 title: Programming Contest
 
+gems:
+  - jekyll-redirect-from
+
