@@ -4,7 +4,7 @@ title: "Programming Contest"
 subtitle: "Le site de partage algorithmique pour tous."
 ref: index
 lang: fr
-permalink: /home-fr/
+permalink: /
 ---
 
 <div class="header-page-image-home">
