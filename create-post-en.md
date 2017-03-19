@@ -3,7 +3,7 @@ layout: page
 title: "Create a post"
 subtitle: "Here how to create a post on this blog."
 ref: create-post
-lang: fr
+lang: en
 permalink: /create-post-en/
 ---
 
