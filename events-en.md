@@ -4,7 +4,7 @@ title: Events
 subtitle: "Events for everyone."
 ref: events
 lang: en
-permanentlink: /events-en/
+permalink: /events-en/
 ---
 
 <div class="header-page-image-events">
