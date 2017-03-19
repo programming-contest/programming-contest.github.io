@@ -11,13 +11,13 @@ location: posts
 <div class="header-page-image-posts">
     <div class="row">
         <div class="col-xs-12 slogan">
-            Lisez, partagez, commentez des articles ...
+            Lisez, partagez, commentez des posts ...
         </div>
         <div class="col-xs-6">
-            <a class="btn btn-white" href="/creer-article/">Créer un article</a>
+            <a class="btn btn-white" href="/create-post-fr/">Créer un post</a>
         </div>
         <div class="col-xs-6">
-            <a class="btn btn-green" href="https://goo.gl/forms/4Hs3YYuanEdzzsSv2">Soumettre un article</a>
+            <a class="btn btn-green" href="https://goo.gl/forms/4Hs3YYuanEdzzsSv2">Soumettre un post</a>
         </div>
     </div>
 </div>

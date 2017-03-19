@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Créer un article
-subtitle: Voici comment créer un article sur ce blog.
-ref: create-article
+title: Créer un post
+subtitle: Voici comment créer un post sur ce blog.
+ref: create-post
 lang: fr
-permalink: /create-article-en/
+permalink: /create-post-en/
 ---
 
 This website allows to post articles about data science and software engineering.

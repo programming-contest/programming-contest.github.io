@@ -11,13 +11,13 @@ location: posts
 <div class="header-page-image-posts">
     <div class="row">
         <div class="col-xs-12 slogan">
-            Read, share, comment articles ...
+            Read, share, comment posts ...
         </div>
         <div class="col-xs-6">
-            <a class="btn btn-white" href="/creer-article/">Create article</a>
+            <a class="btn btn-white" href="/create-post-en/">Create post</a>
         </div>
         <div class="col-xs-6">
-            <a class="btn btn-green" href="https://goo.gl/forms/4Hs3YYuanEdzzsSv2">Submit article</a>
+            <a class="btn btn-green" href="https://goo.gl/forms/4Hs3YYuanEdzzsSv2">Submit post</a>
         </div>
     </div>
 </div>
@@ -37,7 +37,7 @@ location: posts
         </li>
         <hr>
       {% else %}
-        <i>No one available article</i>
+        <i>No one available post</i>
       {% endfor %}
     </ul>
  </div>

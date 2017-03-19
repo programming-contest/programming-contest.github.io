@@ -16,7 +16,7 @@ permanentlink: /events-en/
             <a class="btn btn-white" href="https://www.meetup.com/programming-contest-paris">See group</a>
         </div>
         <div class="col-xs-6">
-            <a class="btn btn-green" href="https://www.meetup.com/programming-contest-paris/join/">Join uss</a>
+            <a class="btn btn-green" href="https://www.meetup.com/programming-contest-paris/join/">Join us</a>
         </div>
     </div>
 </div>
