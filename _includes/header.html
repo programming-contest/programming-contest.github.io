@@ -2,11 +2,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-10 col-sm-10 col-xs-10 logo">
-                <a href="{% if page.lang == 'en' %}/home-en/{% else %}/{% endif %}">
+                <a href="/{{ page.lang }}/">
                     <img src="/static/img/logo-32x32.png">
                     <b> &nbsp;&nbsp; Programming Contest</b>
                 </a>
             </div>
+
+            {{ minimal_header }}
+            {% unless include.minimal_header %}
             <div class="col-lg-7 visible-lg menu">
                 <ul class="line">
                     {% for tab in site.data.menu %}
@@ -22,6 +25,7 @@
                     <i class="fa fa-bars"></i>
                 </a>
             </div>
+            {% endunless %}
         </div>
     </div>    
     <div class="settings" style="display: none">

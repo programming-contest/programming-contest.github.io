@@ -4,5 +4,5 @@ title: Contributors
 subtitle: Contributors
 ref: contributors
 lang: en
-permalink: /contributors-en/
+permalink: /en/contributors/
 ---

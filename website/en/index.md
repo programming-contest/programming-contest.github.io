@@ -1,10 +1,10 @@
 ---
 layout: page
 title: "Programming Contest"
-subtitle: "The website to share knowledge about algorithmic for everyone."
+subtitle: "The website allows to share knowledge about algorithmic for everyone."
 ref: index
 lang: en
-permalink: /home-en/
+permalink: /en/
 ---
 
 <div class="header-page-image-home">
@@ -14,7 +14,7 @@ permalink: /home-en/
             Come, participate, share ...
         </div>
         <div class="col-xs-4">
-            <a class="btn btn-white" href="https://goo.gl/forms/q1OWiLiv0Sqha81O2">Come to an event</a>
+            <a class="btn btn-green" href="https://goo.gl/forms/q1OWiLiv0Sqha81O2">Come to an event</a>
         </div>
         <div class="col-xs-4">
             <a class="btn btn-green" href="https://goo.gl/forms/JMhNI5x0NGycxC932">Be speaker</a>
@@ -44,7 +44,3 @@ If you want to resolve algorithmic issues, to practice interview exercices, to e
 or simply to discover algorithmic and programming, you are welcome. 
 
 We are an non-profit organisation, everyone is volunteer.
-
-For all questions, just contact us:
-
-{% include img.html url="/static/img/contact.jpg" width="70%" description="" %}

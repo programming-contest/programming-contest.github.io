@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html {% if page.lang %}lang="{{ page.lang }}"{% endif %}>
 <head>
     {% include meta.html %}
     {% include css.html %}
@@ -7,7 +7,7 @@
 {% include js.html %}
 
 <body>
-{% include header.html %}
+{% include header.html minimal_header=page.minimal_header %}
 
 {{ content }}
 

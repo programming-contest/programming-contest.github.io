@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Posts
-subtitle: "Posts for everyboby."
-ref: posts
+title: Blog
+subtitle: "Blog for everyboby."
+ref: blog
 lang: en
-permalink: /posts-en/
-location: posts
+permalink: /en/blog/
+location: blog
 ---
 
 <div class="header-page-image-posts">
@@ -13,10 +13,7 @@ location: posts
         <div class="col-xs-12 slogan">
             Read, share, comment posts ...
         </div>
-        <div class="col-xs-6">
-            <a class="btn btn-white" href="/create-post-en/">Create post</a>
-        </div>
-        <div class="col-xs-6">
+        <div class="col-xs-12" style="text-align: center">
             <a class="btn btn-green" href="https://goo.gl/forms/4Hs3YYuanEdzzsSv2">Submit post</a>
         </div>
     </div>

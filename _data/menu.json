@@ -2,21 +2,26 @@
   {
     "icon": "fa-home",
     "title": {"en": "Home", "fr": "Accueil"},
-    "link": {"en": "/home-en/", "fr": "/"}
+    "link": {"en": "/en/", "fr": "/fr/"}
   },
   {
     "icon": "fa-book",
-    "title": {"en": "Posts", "fr": "Posts"},
-    "link": {"en": "/posts-en/", "fr": "/posts-fr/"}
+    "title": {"en": "Blog", "fr": "Blog"},
+    "link": {"en": "/en/blog/", "fr": "/fr/blog/"}
   },
   {
     "icon": "fa-calendar",
     "title": {"en": "Events", "fr": "Évènements"},
-    "link": {"en": "/events-en/", "fr": "/events-fr/"}
+    "link": {"en": "/en/events/", "fr": "/fr/events/"}
   },
   {
     "icon": "fa-play",
     "title": {"en": "Live", "fr": "En direct"},
-    "link": {"en": "/live-en/", "fr": "/live-fr/"}
+    "link": {"en": "/en/live/", "fr": "/fr/live/"}
+  },
+  {
+    "icon": "fa-user",
+    "title": {"en": "Contact", "fr": "Contact"},
+    "link": {"en": "/en/contact/", "fr": "/fr/contact/"}
   }
 ]

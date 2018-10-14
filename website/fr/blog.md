@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Posts"
-subtitle: "Des posts pour tous."
-ref: posts
+title: "Blog"
+subtitle: "Blog pour tous."
+ref: blog
 lang: fr
-permalink: /posts-fr/
-location: posts
+permalink: /fr/blog/
+location: blog
 ---
 
 <div class="header-page-image-posts">
@@ -13,10 +13,7 @@ location: posts
         <div class="col-xs-12 slogan">
             Lisez, partagez, commentez des posts ...
         </div>
-        <div class="col-xs-6">
-            <a class="btn btn-white" href="/create-post-fr/">Créer un post</a>
-        </div>
-        <div class="col-xs-6">
+        <div class="col-xs-12" style="text-align:center">
             <a class="btn btn-green" href="https://goo.gl/forms/4Hs3YYuanEdzzsSv2">Soumettre un post</a>
         </div>
     </div>

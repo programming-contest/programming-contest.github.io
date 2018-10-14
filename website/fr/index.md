@@ -4,7 +4,7 @@ title: "Programming Contest"
 subtitle: "Le site de partage algorithmique pour tous."
 ref: index
 lang: fr
-permalink: /
+permalink: /fr/
 ---
 
 <div class="header-page-image-home">
@@ -14,10 +14,10 @@ permalink: /
             Viens, participe, échange ...
         </div>
         <div class="col-xs-4">
-            <a class="btn btn-white" href="https://goo.gl/forms/q1OWiLiv0Sqha81O2">Venir à un évènement</a>
+            <a class="btn btn-green" href="https://goo.gl/forms/q1OWiLiv0Sqha81O2">Venir à un évènement</a>
         </div>
         <div class="col-xs-4">
-            <a class="btn btn-green" href="https://goo.gl/forms/JMhNI5x0NGycxC932">Etre intervenant</a>
+            <a class="btn btn-green" href="https://goo.gl/forms/JMhNI5x0NGycxC932">Être intervenant</a>
         </div>
         <div class="col-xs-4">
             <a class="btn btn-green" href="https://goo.gl/forms/ixh72q8WEuR4vnco1">Devenir membre</a>
@@ -45,7 +45,3 @@ Si tu veux résoudre des problèmes algorithmiques, t'entraîner à des exercice
 de code en ligne, ou simplement découvrir l'algorithmique et la programmation, tu es le bienvenue.
 
 Nous sommes une organisation à but non-lucratif, toute personne est bénévole.
-
-Pour toutes questions il suffit de nous contacter :
-
-{% include img.html url="/static/img/contact.jpg" width="70%" description="" %}

@@ -4,7 +4,7 @@ title: "Create a post"
 subtitle: "Here how to create a post on this blog."
 ref: create-post
 lang: en
-permalink: /create-post-en/
+permalink: /en/create-post/
 ---
 
 This website allows to post articles about data science and software engineering.

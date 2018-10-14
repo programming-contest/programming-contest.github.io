@@ -4,7 +4,7 @@ title: Events
 subtitle: "Events for everyone."
 ref: events
 lang: en
-permalink: /events-en/
+permalink: /en/events/
 ---
 
 <div class="header-page-image-events">
@@ -12,10 +12,7 @@ permalink: /events-en/
         <div class="col-xs-12 slogan">
             Come and participate in our events ...
         </div>
-        <div class="col-xs-6">
-            <a class="btn btn-white" href="https://www.meetup.com/programming-contest-paris">See group</a>
-        </div>
-        <div class="col-xs-6">
+        <div class="col-xs-12" style="text-align:center">
             <a class="btn btn-green" href="https://www.meetup.com/programming-contest-paris/join/">Join us</a>
         </div>
     </div>
@@ -30,5 +27,5 @@ width="100%"
 description="" %}
     
 <div style="text-align: center">
-    <a class="btn" href="https://www.meetup.com/programming-contest-paris/join/">Join us</a>
+    <a class="btn btn-green" href="https://www.meetup.com/programming-contest-paris/join/">Join us</a>
 </div>
