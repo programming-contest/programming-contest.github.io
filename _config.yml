@@ -1,5 +1,22 @@
-title: Programming Contest
+# ----
+# Site
 
-gems:
+title: Programming Contest
+url: "https://programming-contest.com"
+
+# -----
+# Build
+
+plugins:
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
   - jekyll-redirect-from
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE

@@ -10,8 +10,8 @@ permalink: /
 <div class="header-page-image-home">
     <div class="row">
         <div class="col-xs-12 slogan">
-            Codez pour résoudre des challenges.<br>
-            Venez, participez, échangez ...
+            Code pour résoudre des challenges.<br>
+            Viens, participe, échange ...
         </div>
         <div class="col-xs-4">
             <a class="btn btn-white" href="https://goo.gl/forms/q1OWiLiv0Sqha81O2">Venir à un évènement</a>
@@ -41,8 +41,8 @@ width="100%"
 description="Nos 2 langages préférés" %}
 
 
-Si vous voulez résoudre des problèmes algorithmiques, vous entraîner à des exercices d'entretien, vous préparer à des challenges
-de code en ligne, ou simplement découvrir l'algorithmique et la programmation, vous êtes le bienvenue.
+Si tu veux résoudre des problèmes algorithmiques, t'entraîner à des exercices d'entretien, te préparer à des challenges
+de code en ligne, ou simplement découvrir l'algorithmique et la programmation, tu es le bienvenue.
 
 Nous sommes une organisation à but non-lucratif, toute personne est bénévole.
 

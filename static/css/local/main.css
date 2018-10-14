@@ -19,16 +19,13 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    height: 32px;
+    height: 48px;
     color: white;
     font-weight: bold;
     font-size: 16px;
     z-index: 9999;
-}
-
-header div {
-    padding: 5px;
     background-color: #626b7f;
+    padding: 5px;
 }
 
 header div ul {
@@ -138,14 +135,6 @@ header .menu {
     text-align: center;
 }
 
-header .social-network {
-    text-align: center;
-}
-
-header .search {
-    text-align: right;
-}
-
 header .settings-icon  {
     text-align: right;
 }
@@ -157,13 +146,7 @@ header .settings  {
     height: 100%;
     text-align: center;
     padding: 0 !important;
-}
-
-header .settings hr {
-    color:white;
-    background-color:white;
-    margin: 0;
-    height: 1px;
+    background-color: #626b7f;
 }
 
 header .settings li {
@@ -173,10 +156,6 @@ header .settings li {
 
 header .lang {
     text-align: right;
-}
-
-header .breadcrumb {
-
 }
 
 /* Footer */

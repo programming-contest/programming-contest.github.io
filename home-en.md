@@ -45,6 +45,6 @@ or simply to discover algorithmic and programming, you are welcome.
 
 We are an non-profit organisation, everyone is volunteer.
 
-For all questions, juste contact us:
+For all questions, just contact us:
 
 {% include img.html url="/static/img/contact.jpg" width="70%" description="" %}

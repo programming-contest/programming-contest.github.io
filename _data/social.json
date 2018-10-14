@@ -5,16 +5,6 @@
     "link": "https://github.com/programming-contest"
   },
   {
-    "icon": "fa-facebook",
-    "name": "Facebook",
-    "link": ""
-  },
-  {
-    "icon": "fa-twitter",
-    "name": "Twitter",
-    "link": ""
-  },
-  {
     "icon": "fa-list-alt",
     "name": "Meetup",
     "link": "https://www.meetup.com/programming-contest-paris/"
