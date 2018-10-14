@@ -5,7 +5,7 @@ Online webite: https://programming-contest.github.io developed by https://jekyll
 Used Versions:  
 ~~~
 $ ruby --version
-ruby 2.3.1p112 (2016-04-26) [x86_64-linux-gnu]
+ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-linux]
 ~~~
 
 
