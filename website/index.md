@@ -1,5 +1,5 @@
 ---
 permalink: /
 redirect_to:
-  - /fr/
+  - fr/
 ---
