@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Évènements"
-subtitle: "Des évènements pour tous."
+title: Évènements
+subtitle: Des évènements pour tous
 ref: events
 lang: fr
 permalink: /fr/events/

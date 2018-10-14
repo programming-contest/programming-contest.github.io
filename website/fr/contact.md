@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-subtitle: "Rencontre nous et restons en contact"
+subtitle: Rencontre nous et restons en contact
 ref: contact
 lang: fr
 permalink: /fr/contact/

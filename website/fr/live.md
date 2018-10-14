@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "En direct"
-subtitle: " Les évènements sont visibles en direct."
+title: En direct
+subtitle: Les évènements sont visibles en direct
 ref: live
 lang: fr
 permalink: /fr/live/

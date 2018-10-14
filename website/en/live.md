@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Live
-subtitle: " The events are visible in live."
+subtitle: The events are visible in live
 ref: live
 lang: en
 permalink: /en/live/

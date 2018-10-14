@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Programming Contest"
-subtitle: "The website allows to share knowledge about algorithmic for everyone."
+title: Programming Contest
+subtitle: The website allows to share knowledge about algorithmic for everyone
 ref: index
 lang: en
 permalink: /en/

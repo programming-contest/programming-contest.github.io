@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Programming Contest"
-subtitle: "Le site de partage algorithmique pour tous."
+title: Programming Contest
+subtitle: Le site de partage algorithmique pour tous
 ref: index
 lang: fr
 permalink: /fr/

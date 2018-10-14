@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-subtitle: "Blog for everyboby."
+subtitle: Blog for everyboby
 ref: blog
 lang: en
 permalink: /en/blog/

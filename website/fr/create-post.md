@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Créer un post
-subtitle: Voici comment créer un post sur ce blog.
+subtitle: Voici comment créer un post sur ce blog
 ref: create-post
 lang: fr
 permalink: /fr/create/post/
