@@ -2,7 +2,12 @@
 # Site
 
 title: Programming Contest
-url: https://programming-contest.github.io/
+email: paris.programming.contest@gmail.com
+description: "Learning, coding, computing, and sharing together"
+baseurl: "" # site subpath
+url: "https://programming-contest.github.io" 
+twitter_username: glegoux
+github_username:  glegoux
 
 # -----
 # Build
