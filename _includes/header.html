@@ -30,14 +30,10 @@
             <hr>
             <li><a href="{{ tab.link.[page.lang] }}"><span class="fa {{ tab.icon }}"></span> {{ tab.title.[page.lang] }}</a></li>
             {% endfor %}
+            {% for link in site.data.social %}
             <hr>
-            <li>
-                <ul class="line">
-                {% for link in site.data.social %}
-                    <li><a href="{{ link.link }}" title="{{ link.name }}"><i class="fa {{ link.icon }}"></i></a></li>
-                {% endfor %}
-                </ul>
-            </li>
+            <li><a href="{{ link.link }}" title="{{ link.name }}"><span class="fa {{ link.icon }}"></span> {{ link.name }}</a></li>
+            {% endfor %}
             <hr>
             <li>
                 {% include lang.html %}
