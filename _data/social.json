@@ -1,12 +1,22 @@
 [
   {
+    "icon": "fa-meetup",
+    "name": "Meetup",
+    "link": "https://www.meetup.com/programming-contest-paris"
+  },
+  {
+    "icon": "fa-slideshare",
+    "name": "SlideShare",
+    "link": "https://www.slideshare.net/programmingcontest"
+  },
+  {
+    "icon": "fa-twitter",
+    "name": "Twitter",
+    "link": "https://twitter.com/programcontest"
+  },
+  {
     "icon": "fa-github",
     "name": "Github",
     "link": "https://github.com/programming-contest"
-  },
-  {
-    "icon": "fa-meetup",
-    "name": "Meetup",
-    "link": "https://www.meetup.com/programming-contest-paris/"
   }
 ]

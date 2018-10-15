@@ -3,7 +3,7 @@
         <div>
             Programming Contest :
             {% for link in site.data.social %}
-                <a href="{{ link.link }}" title="{{ link.name }}"><i class="fa {{ link.icon }}"></i></a>
+                <a href="{{ link.link }}" title="{{ link.name }}"><i class="fa {{ link.icon }}"></i> {{ link.name }}</a>&nbsp;
             {% endfor %}
         </div>
         <div>
