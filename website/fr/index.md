@@ -10,8 +10,7 @@ permalink: /fr/
 <div class="header-page-image-home">
     <div class="row">
         <div class="col-xs-12 slogan">
-            Code pour résoudre des challenges.<br>
-            Viens, participe, échange ...
+            Code pour résoudre des challenges
         </div>
         <div class="col-xs-4">
             <a class="btn btn-green" href="https://goo.gl/forms/q1OWiLiv0Sqha81O2">Venir à un évènement</a>

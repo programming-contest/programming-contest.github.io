@@ -10,8 +10,7 @@ permalink: /en/
 <div class="header-page-image-home">
     <div class="row">
         <div class="col-xs-12 slogan">
-            Code to resolve challenges.<br>
-            Come, participate, share ...
+            Code to resolve challenges
         </div>
         <div class="col-xs-4">
             <a class="btn btn-green" href="https://goo.gl/forms/q1OWiLiv0Sqha81O2">Come to an event</a>

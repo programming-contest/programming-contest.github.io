@@ -10,7 +10,7 @@ permalink: /en/events/
 <div class="header-page-image-events">
     <div class="row">
         <div class="col-xs-12 slogan">
-            Come and participate in our events ...
+            Come and participate in our events
         </div>
         <div class="col-xs-12" style="text-align:center">
             <a class="btn btn-green" href="https://www.meetup.com/programming-contest-paris/join/">Join us</a>

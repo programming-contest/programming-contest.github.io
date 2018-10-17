@@ -11,7 +11,7 @@ location: blog
 <div class="header-page-image-posts">
     <div class="row">
         <div class="col-xs-12 slogan">
-            Read, share, comment posts ...
+            Read, share, and comment posts
         </div>
         <div class="col-xs-12" style="text-align: center">
             <a class="btn btn-green" href="https://goo.gl/forms/4Hs3YYuanEdzzsSv2">Submit post</a>
